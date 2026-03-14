@@ -1,4 +1,5 @@
 import StructuredData from "@/components/StructuredData";
+import ScrollReveal from "@/components/ScrollReveal";
 import StickyBar from "@/components/StickyBar";
 import Hero from "@/components/Hero";
 import Pain from "@/components/Pain";
@@ -6,7 +7,6 @@ import Cause from "@/components/Cause";
 import Method from "@/components/Method";
 import Doctor from "@/components/Doctor";
 import Transformation from "@/components/Transformation";
-
 import Guarantee from "@/components/Guarantee";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <>
       <StructuredData />
+      <ScrollReveal />
       <StickyBar />
       <Hero />
       <Pain />
@@ -23,7 +24,6 @@ export default function Home() {
       <Method />
       <Doctor />
       <Transformation />
-
       <Guarantee />
       <CTA />
       <FAQ />

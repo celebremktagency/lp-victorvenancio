@@ -20,22 +20,12 @@ export default function StickyBar() {
   }, []);
 
   return (
-    <div
-      className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between border-b border-gold/15 backdrop-blur-md px-[clamp(20px,5vw,80px)] py-3.5 transition-transform duration-400 ease-out ${
-        visible ? "translate-y-0" : "-translate-y-full"
-      }`}
-      style={{ background: "rgba(10,14,26,0.96)" }}
-    >
-      <div className="font-display text-base text-white font-normal tracking-[2px]">
-        Dr. Victor <span className="text-gold">Venâncio</span>
+    <div className={`sticky-bar ${visible ? "visible-bar" : "hidden-bar"}`}>
+      <div className="sticky-bar__logo">
+        Dr. Victor <span>Venâncio</span>
       </div>
-      <a
-        href={WHATSAPP_LINK}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 bg-gold text-navy text-[11px] font-bold tracking-[2px] uppercase px-7 py-2.5 border-none cursor-pointer no-underline transition-opacity duration-200 hover:opacity-85"
-      >
-        <WhatsAppIcon className="w-4 h-4" />
+      <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="sticky-bar__btn">
+        <WhatsAppIcon style={{ width: 16, height: 16 }} />
         Agendar Consulta
       </a>
     </div>

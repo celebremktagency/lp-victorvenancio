@@ -14,12 +14,12 @@ export default function Hero() {
 
       {/* Left */}
       <div className="px-[clamp(40px,6vw,100px)] py-[clamp(80px,8vw,130px)] flex flex-col justify-center relative z-[2]">
-        <div className="flex items-center gap-3 mb-8 text-gold text-[11px] font-medium tracking-[3px] uppercase animate-up delay-1">
+        <div className="flex items-center gap-3 mb-8 text-gold text-[11px] font-medium tracking-[3px] uppercase animate-up anim-delay-1">
           <span className="w-10 h-px bg-gold inline-block" />
           Dr. Victor Venâncio · CRM [XXXX]
         </div>
 
-        <h1 className="font-display text-[clamp(42px,5vw,74px)] font-light text-white leading-[1.08] mb-7 animate-up delay-2">
+        <h1 className="font-display text-[clamp(42px,5vw,74px)] font-light text-white leading-[1.08] mb-7 animate-up anim-delay-2">
           Seu corpo mudou<br />
           depois dos 35.<br />
           <em className="italic text-gold-light">
@@ -27,13 +27,13 @@ export default function Hero() {
           </em>
         </h1>
 
-        <p className="text-base font-light text-text-muted leading-[1.75] max-w-[440px] mb-11 animate-up delay-3">
+        <p className="text-base font-light text-text-muted leading-[1.75] max-w-[440px] mb-11 animate-up anim-delay-3">
           Não é fraqueza. Não é falta de disciplina. É desequilíbrio hormonal — e isso tem{" "}
           <strong className="text-gold-pale font-medium">solução clínica, individualizada e definitiva</strong>. Com o Método{" "}
           <strong className="text-gold-pale font-medium">EmaCrescer®</strong>, você retoma o controle do seu corpo, da sua energia e da sua vida.
         </p>
 
-        <div className="flex gap-10 mb-12 pt-8 border-t border-gold/15 animate-up delay-4">
+        <div className="flex gap-10 mb-12 pt-8 border-t border-gold/15 animate-up anim-delay-4">
           <div>
             <div className="font-display text-[42px] font-semibold text-gold leading-none mb-1">+2</div>
             <div className="text-[11px] text-text-muted tracking-[1.5px] uppercase leading-[1.4]">
@@ -54,7 +54,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="animate-up delay-5">
+        <div className="animate-up anim-delay-5">
           <a
             href={WHATSAPP_LINK}
             target="_blank"

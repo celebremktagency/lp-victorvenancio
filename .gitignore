@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# images (hosted externally or added manually)
+public/*.webp
+
 # debug
 npm-debug.log*
 yarn-debug.log*

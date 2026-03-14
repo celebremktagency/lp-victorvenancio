@@ -1,3 +1,4 @@
+import StructuredData from "@/components/StructuredData";
 import StickyBar from "@/components/StickyBar";
 import Hero from "@/components/Hero";
 import Pain from "@/components/Pain";
@@ -14,6 +15,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
+      <StructuredData />
       <StickyBar />
       <Hero />
       <Pain />

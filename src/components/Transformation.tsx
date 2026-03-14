@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { WhatsAppIcon, ArrowRightIcon } from "./Icons";
+import antesImg from "@/assets/antes.webp";
+import depoisImg from "@/assets/depois.webp";
 
 const WHATSAPP_LINK = "https://wa.me/5531991467509?text=Olá%20Dr.%20Victor,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20para%20avaliação%20hormonal%20e%20metabólica.";
 
@@ -26,7 +28,7 @@ export default function Transformation() {
             <span className="block text-[11px] font-semibold tracking-[3px] uppercase text-text-muted mb-4">Antes</span>
             <div className="w-full aspect-[3/4] relative overflow-hidden">
               <Image
-                src="/antes.webp"
+                src={antesImg}
                 alt="Dr. Victor Venâncio — Antes"
                 fill
                 className="object-cover object-center"
@@ -47,7 +49,7 @@ export default function Transformation() {
             <span className="block text-[11px] font-semibold tracking-[3px] uppercase text-gold mb-4">Depois</span>
             <div className="w-full aspect-[3/4] relative overflow-hidden border-2 border-gold">
               <Image
-                src="/depois.webp"
+                src={depoisImg}
                 alt="Dr. Victor Venâncio — Depois"
                 fill
                 className="object-cover object-center"

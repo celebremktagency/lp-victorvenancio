@@ -1,4 +1,5 @@
 import Image from "next/image";
+import drVictorSentado from "@/assets/dr-victor-sentado.webp";
 
 const credentials = [
   "Especialização em Medicina Hormonal e Metabólica",
@@ -16,7 +17,7 @@ export default function Doctor() {
         <div className="relative">
           <div className="w-full aspect-[3/4] relative overflow-hidden border border-gold/20">
             <Image
-              src="/dr-victor-sentado.webp"
+              src={drVictorSentado}
               alt="Dr. Victor Venâncio"
               fill
               className="object-cover object-top"

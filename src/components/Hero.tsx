@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { WhatsAppIcon, ArrowRightIcon } from "./Icons";
+import drVictorProfissional from "@/assets/dr-victor-profissional.webp";
 
 const WHATSAPP_LINK = "https://wa.me/5531991467509?text=Olá%20Dr.%20Victor,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20para%20avaliação%20hormonal%20e%20metabólica.";
 
@@ -72,7 +73,7 @@ export default function Hero() {
       <div className="relative hidden lg:flex items-end justify-center z-[2]">
         <div className="w-full max-w-[480px] h-[90vh] relative overflow-hidden border-t border-gold/20 border-l border-l-gold/10">
           <Image
-            src="/dr-victor-profissional.webp"
+            src={drVictorProfissional}
             alt="Dr. Victor Venâncio"
             fill
             className="object-cover object-top"

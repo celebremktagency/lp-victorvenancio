@@ -1,4 +1,5 @@
 import Image from "next/image";
+import clinica3 from "@/assets/clinica-3.webp";
 
 const painPoints = [
   "Peso que não sai mesmo com dieta restrita",
@@ -43,7 +44,7 @@ export default function Pain() {
         <div className="relative">
           <div className="w-full aspect-[3/4] relative overflow-hidden">
             <Image
-              src="/clinica-3.webp"
+              src={clinica3}
               alt="Consultório Dr. Victor Venâncio"
               fill
               className="object-cover"

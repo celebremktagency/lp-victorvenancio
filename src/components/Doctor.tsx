@@ -16,7 +16,7 @@ export default function Doctor() {
         <div className="relative">
           <div className="w-full aspect-[3/4] relative overflow-hidden border border-gold/20">
             <Image
-              src="/foto profissional sentado.webp"
+              src="/dr-victor-sentado.webp"
               alt="Dr. Victor Venâncio"
               fill
               className="object-cover object-top"

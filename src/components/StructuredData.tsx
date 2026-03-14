@@ -52,7 +52,7 @@ export default function StructuredData() {
       opens: "08:00",
       closes: "18:00",
     },
-    image: "/foto profissional em pé.webp",
+    image: "/dr-victor-profissional.webp",
     priceRange: "$$",
   };
 
@@ -73,7 +73,7 @@ export default function StructuredData() {
       addressCountry: "BR",
       neighborhood: "Bela Vista",
     },
-    image: "/foto profissional em pé.webp",
+    image: "/dr-victor-profissional.webp",
   };
 
   const faqPage = {

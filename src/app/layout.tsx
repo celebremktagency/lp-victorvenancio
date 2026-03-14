@@ -59,7 +59,7 @@ export const metadata: Metadata = {
       "Tratamento hormonal e metabólico especializado para mulheres no climatério. Método EmaCrescer® — protocolos individualizados com implantes hormonais em São Paulo.",
     images: [
       {
-        url: "/foto profissional em pé.webp",
+        url: "/dr-victor-profissional.webp",
         width: 800,
         height: 1200,
         alt: "Dr. Victor Venâncio — Especialista em Reposição Hormonal",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     title: "Dr. Victor Venâncio | Método EmaCrescer®",
     description:
       "Reposição hormonal com implantes e medicina metabólica feminina. Tratamento individualizado para mulheres no climatério em São Paulo.",
-    images: ["/foto profissional em pé.webp"],
+    images: ["/dr-victor-profissional.webp"],
   },
   alternates: {
     canonical: "https://drvictorvenancio.com.br",

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drvictorvenancio.com.br/sitemap.xml
